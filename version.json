@@ -1,8 +1,8 @@
 {
-  "version_code": 3,
-  "version_name": "1.0.2",
-  "release_title": "TopUp Net Gateway v1.0.2 (Production Release)",
-  "changelog": "- Real-time Gateway Serving Status badge (Serving vs Standby)\n- Live Daily & Monthly received amount quota progress bars with %\n- Visual Warning Alerts for Daily Limit Reached, Monthly Limit Reached, and Transaction Limit Reached\n- Harmonized with Admin Panel & multi-active gateway priority switching\n- 100% Production Signed Release Build",
+  "version_code": 4,
+  "version_name": "1.0.3",
+  "release_title": "TopUp Net Gateway v1.0.3 (Production Release)",
+  "changelog": "- Changed gateway status badge to 'Running' (চলমান)\n- Added Nagad Agent 'Cash Out Received' SMS format support & masked customer numbers\n- Enhanced SMS filtering and auto-approval verification\n- 100% Production Signed Release Build",
   "download_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "direct_apk_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "force_update": false
