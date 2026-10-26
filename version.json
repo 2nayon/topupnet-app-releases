@@ -1,0 +1,9 @@
+{
+  "version_code": 1,
+  "version_name": "1.0",
+  "release_title": "TopUp Net Gateway v1.0",
+  "changelog": "Official Production Release of TopUp Net Gateway Companion App.\n\n- Zero-lag SMS forwarding\n- Dual SIM & Brand filter\n- In-app update support",
+  "download_url": "https://github.com/2nayon/topupnet-app-releases/releases/latest/download/TopUpNet-Gateway.apk",
+  "direct_apk_url": "https://github.com/2nayon/topupnet-app-releases/releases/latest/download/TopUpNet-Gateway.apk",
+  "force_update": false
+}
