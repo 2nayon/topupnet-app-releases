@@ -1,8 +1,8 @@
 {
-  "version_code": 4,
-  "version_name": "1.0.3",
-  "release_title": "TopUp Net Gateway v1.0.3 (Production Release)",
-  "changelog": "- Changed gateway status badge to 'Running' (চলমান)\n- Added Nagad Agent 'Cash Out Received' SMS format support & masked customer numbers\n- Enhanced SMS filtering and auto-approval verification\n- 100% Production Signed Release Build",
+  "version_code": 5,
+  "version_name": "1.0.4",
+  "release_title": "TopUp Net Gateway v1.0.4 (Personal Send Money Sync)",
+  "changelog": "- Added bKash Personal & Nagad Personal Outgoing Send Money SMS sync\n- Automatic mathematical balance deduction verification (Sent + Fee)\n- Zero transaction storage (prevents customer claim/redemption)\n- 100% Production Signed Release Build",
   "download_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "direct_apk_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "force_update": false
