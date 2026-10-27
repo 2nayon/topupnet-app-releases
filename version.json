@@ -1,8 +1,8 @@
 {
-  "version_code": 5,
-  "version_name": "1.0.4",
-  "release_title": "TopUp Net Gateway v1.0.4 (Personal Send Money Sync)",
-  "changelog": "- Added bKash Personal & Nagad Personal Outgoing Send Money SMS sync\n- Automatic mathematical balance deduction verification (Sent + Fee)\n- Zero transaction storage (prevents customer claim/redemption)\n- 100% Production Signed Release Build",
+  "version_code": 6,
+  "version_name": "1.0.5",
+  "release_title": "TopUp Net Gateway v1.0.5 (Background Reliability & SMS Scanner)",
+  "changelog": "- Fixed Gateway credentials persistence across Admin Panel & Companion App\n- Automatic service restart on task removal from Recents & Boot Completed receiver\n- Missed/Delayed SMS Inbox Scanner with 24h recovery & periodic background sync\n- Fixed white-on-white text readability in dark theme input fields\n- Developer Contact button directly opens Telegram (@itsnayon360)\n- 100% Production Signed Release Build",
   "download_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "direct_apk_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "force_update": false
