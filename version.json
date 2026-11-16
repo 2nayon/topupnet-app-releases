@@ -1,8 +1,8 @@
 {
-  "version_code": 10,
-  "version_name": "1.0.9",
-  "release_title": "TopUp Net Gateway v1.0.9 (Reliable GitHub In-App Updater & Integrity Fix)",
-  "changelog": "- Fixed In-App Update Download Failures: Increased streaming timeouts, added internal cache storage & automatic fallback across direct GitHub and redirect endpoints.\n- Verified APK Integrity Check: Validates downloaded package header before launching installer and accurately reports failed system downloads.\n- Smooth Unknown Apps Permission Flow: Auto-resumes installation when returning from Android install permission settings.\n- Includes Signed Webhooks, Durable SMS Queue & Rotated Signing Lineage.",
+  "version_code": 11,
+  "version_name": "1.0.10",
+  "release_title": "TopUp Net Gateway v1.0.10 (Clickable Alerts, Chime Sound & Smooth Dashboard)",
+  "changelog": "- Clickable Review Alerts: Tapping Waiting Approval or Rejected notifications now opens directly inside the SMS Logs Waiting or Rejected tab.\n- Custom Bundled Notification Chime: Embedded native payment_alert chime on a dedicated notification channel so alerts always stand out.\n- Dashboard Flicker Fix & UI Polish: Migrated Dashboard to LazyColumn with clip bounds, disabled OEM force-dark leaks, and aligned brand accents.\n- Cleaner Foreground Notification: Removed duplicate app name text, added custom monochrome receiver icon, and hardened idempotent keep-alive locks.",
   "download_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "direct_apk_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "force_update": false
