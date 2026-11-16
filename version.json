@@ -1,9 +1,9 @@
 {
-  "version_code": 9,
-  "version_name": "1.0.8",
-  "release_title": "TopUp Net Gateway v1.0.8 (Signed Webhooks, Durable SMS Queue & Signing Security)",
-  "changelog": "- Signed Webhook Delivery: Added HMAC-SHA256 timestamp + nonce verification headers for webhook and status requests.\n- Durable SMS Queue Worker: Serialized WorkManager retry pipeline with SQLite persistence so queued payment SMS never get dropped offline.\n- Smarter SMS Filter & Inbox Scanner reliability improvements.\n- Rotated release signing key lineage for verified in-app updates across Android 7 through Android 16.",
+  "version_code": 10,
+  "version_name": "1.0.9",
+  "release_title": "TopUp Net Gateway v1.0.9 (Reliable GitHub In-App Updater & Integrity Fix)",
+  "changelog": "- Fixed In-App Update Download Failures: Increased streaming timeouts, added internal cache storage & automatic fallback across direct GitHub and redirect endpoints.\n- Verified APK Integrity Check: Validates downloaded package header before launching installer and accurately reports failed system downloads.\n- Smooth Unknown Apps Permission Flow: Auto-resumes installation when returning from Android install permission settings.\n- Includes Signed Webhooks, Durable SMS Queue & Rotated Signing Lineage.",
   "download_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
-  "direct_apk_url": "https://raw.githubusercontent.com/2nayo/topupnet-app-releases/main/TopUpNet-Gateway.apk",
+  "direct_apk_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "force_update": false
 }
