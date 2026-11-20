@@ -1,8 +1,8 @@
 {
-  "version_code": 11,
-  "version_name": "1.0.10",
-  "release_title": "TopUp Net Gateway v1.0.10 (Clickable Alerts, Chime Sound & Smooth Dashboard)",
-  "changelog": "- Clickable Review Alerts: Tapping Waiting Approval or Rejected notifications now opens directly inside the SMS Logs Waiting or Rejected tab.\n- Custom Bundled Notification Chime: Embedded native payment_alert chime on a dedicated notification channel so alerts always stand out.\n- Dashboard Flicker Fix & UI Polish: Migrated Dashboard to LazyColumn with clip bounds, disabled OEM force-dark leaks, and aligned brand accents.\n- Cleaner Foreground Notification: Removed duplicate app name text, added custom monochrome receiver icon, and hardened idempotent keep-alive locks.",
+  "version_code": 12,
+  "version_name": "1.0.11",
+  "release_title": "TopUp Net Gateway v1.0.11 (Instant Background SMS Forward & 24/7 Keep-Alive)",
+  "changelog": "- Instant Background SMS Forwarding: Incoming MFS payment SMS are now dispatched over HTTP immediately inside the broadcast WakeLock window with automatic 3x radio-wakeup retry instead of waiting for deferred background workers.\n- Triple-Layer Real-Time Detection: Added dynamic high-priority SMS_RECEIVED receiver, live ContentObserver on content://sms, and a 15-second background watchdog loop inside SmsForegroundService.\n- 24/7 Multi-Version Keep-Alive (Android 7 to Android 16+): Migrated to remoteMessaging/specialUse FGS types with onTimeout auto-resurrection, safe Android 12+ AlarmManager fallback, rolling WakeLock renewal, and process startup recovery.",
   "download_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "direct_apk_url": "https://raw.githubusercontent.com/2nayon/topupnet-app-releases/main/TopUpNet-Gateway.apk",
   "force_update": false
